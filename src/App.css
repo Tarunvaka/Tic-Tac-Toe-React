@@ -1,0 +1,77 @@
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  background-color: #fafafa;
+}
+
+.board {
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 36px;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #dcdcdc;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #ececec;
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+.select-first {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.select-first p {
+  margin-right: 10px;
+}
+
+.select-first button {
+  width: 50px;
+  height: 30px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.select-first button:hover {
+  background-color: #ececec;
+}
